@@ -1,0 +1,157 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+@font-face {
+  font-family: Vazirmatn;
+  font-weight: 900;
+  font-style: normal;
+  src: url(/assets/fonts/Vazirmatn-RD-Regular.woff2) format(woff2);
+}
+body {
+  font-family: Vazirmatn;
+}
+
+.plan__title {
+  font-family: Vazirmatn;
+  font-weight: 900;
+  font-size: 2.2rem;
+  margin-right: 10.2rem;
+}
+@media screen and(min-width: 1042px) {
+  .plan__title {
+    font-size: 1.1rem;
+  }
+}
+.plan__document {
+  margin-top: 8.8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.plan__number {
+  border-radius: 0.6rem;
+  width: 4rem;
+  height: 4rem;
+  margin-right: 8.5rem;
+  background-color: #afcedd;
+  color: #234894;
+
+  border: none;
+  font-family: Vazirmatn;
+  font-weight: 900;
+  font-size: 1.8rem;
+  padding-right: 1.5rem;
+}
+@media screen and(min-width: 1042px) {
+  .plan__number {
+    font-size: 1.8rem;
+  }
+}
+
+.panel__1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.plan__btn {
+  color: #234894;
+  border: none;
+  background-color: white;
+  font-family: Vazirmatn;
+  font-family: 600;
+  font-size: 1.6rem;
+  padding-left: 5rem;
+  padding-right: 1rem;
+}
+@media screen and (min-width: 1024px) {
+  .plan__btn {
+    font-size: 1.6rem;
+  }
+}
+.plan__date {
+  font-family: Vazirmatn;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #696969;
+  padding-top: 10px;
+}
+.plan__member {
+  font-family: Vazirmatn;
+  font-weight: 900;
+  font-size: 1.8rem;
+  margin-right: 8.5rem;
+  padding-left: 1rem;
+}
+@media screen and (min-width: 1024px) {
+  .plan__member {
+    font-size: 1.8rem;
+  }
+}
+
+.plan__id {
+  font-family: Vazirmatn;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #696969;
+  margin-right: 8.5rem;
+}
+@media screen and (min-width: 1024px) {
+  .plan__id {
+    font-size: 1.2rem;
+  }
+}
+
+/* .plan-person {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+} */
+
+.plan__viow {
+  border-radius: 0.8rem;
+  width: 15rem;
+  height: 6.4rem;
+  background-color: #219f95;
+  border: none;
+  font-family: Vazirmatn;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #ffffff;
+  margin-top: 2.7rem;
+  margin-right: 7rem;
+}
+@media screen and(min-width:1024px) {
+  .plan__viow {
+    font-size: 1.6rem;
+  }
+}
+.plan__name {
+  font-family: Vazirmatn;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #1e1e1e;
+  margin-right: 1rem;
+  margin-left: 5rem;
+}
+@media screen and (min-width: 1024px) {
+  .plan__name {
+    font-size: 1.6rem;
+  }
+}
+.plan__photo {
+  margin-right: 8.5rem;
+  width: 4rem;
+  height: 4rem;
+}
+.plan__admin {
+  display: flex;
+  flex-direction: row;
+}
+.plan__admin {
+  margin-bottom: 2rem;
+
+  margin-top: 18.3rem;
+}
